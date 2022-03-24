@@ -1,0 +1,43 @@
+.navbar {
+    background-color:transparent;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    width:100%;
+    position: fixed;
+}
+
+.navbarLi {
+    list-style:none;
+    padding:20px;
+    font-family: 'Azeret Mono', monospace;
+    color:white;
+}
+
+
+.navbarLiLogo {
+    list-style:none;
+    padding: 20px 20px 20px 0px;
+    font-family: 'Azeret Mono', monospace;
+    color:white;
+}
+
+.navbarUl {
+    color:white;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    width:60%;
+}
+
+.logoLi {
+    color:white;
+    list-style-type: none;
+}
+
+.contentsLi {
+    color:white;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
