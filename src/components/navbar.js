@@ -8,12 +8,12 @@ function navbar() {
             <div className='navbar'>
                 <ul className='navbarUl'>
                     <div className='logoLi'>
-                        <li className='navbarLiLogo'>elijahperera.com</li>
+                        <li className='navbarLiLogo'><a className='aTags' href="#home">elijahperera.com</a></li>
                     </div>
                     <div className='contentsLi'>
-                        <li className='navbarLi'>About</li>
-                        <li className='navbarLi'>Contact</li>
-                        <li className='navbarLi'>Projects</li>
+                        <li className='navbarLi'><a className='aTags' href="#about">About</a></li>
+                        <li className='navbarLi'><a className='aTags' href="#contact">contact</a></li>
+                        <li className='navbarLi'><a className='aTags' href="#projects">projects</a></li>
                     </div>
                 </ul>
             </div>

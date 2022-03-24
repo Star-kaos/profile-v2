@@ -42,6 +42,15 @@
     justify-content: end;
 }
 
+.aTags {
+    color:white;
+    text-decoration: none;
+}
+
+.aTags:hover {
+    font-weight: 800;
+}
+
 
 @media screen and (max-width: 850px) {
     .navbarLi {
