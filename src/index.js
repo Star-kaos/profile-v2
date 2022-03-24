@@ -8,4 +8,7 @@ ReactDOM.render(
   </React.StrictMode>,
   document.getElementById('root')
 );
+<<<<<<< HEAD
 
+=======
+>>>>>>> f1ec20a06d9442aecc3f8a93f66f7885feaa00f6
