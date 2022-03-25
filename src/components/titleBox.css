@@ -69,8 +69,8 @@
   /* me pic */
   .mePicNest {
     border:1px solid white;
-    width:35%;
-    height:250%;
+    width:18em;
+    height:25em;
     padding:10px;
   }
   
@@ -84,14 +84,14 @@
     height: 100%;
   }
 
-@media screen and (max-width: 1111px) {
+@media screen and (max-width: 1000px) {
   .mePicNest {
-    display: none;
+    margin-top: 2em;
+    width:8em;
+    height: 10em;
   } 
-  .mePic {
-    display: none;
-  }
   .titleBoxNest {
+    flex-direction: column;
     justify-content: center;
     align-items: center;
   }
