@@ -6,6 +6,15 @@
     display: inline;
 }
 
+.achievmentsP {
+    font-family: 'Azeret Mono', monospace;
+    color:white;
+    font-weight: 200;
+    width: 20em;
+    display: inline;
+    font-size:20px;
+}
+
 .achievmentBoxMain {
     background-color:rgb(78, 78, 78);
     display: flex;
