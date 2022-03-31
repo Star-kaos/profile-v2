@@ -1,25 +1,33 @@
+.achievmentBoxHeadings {
+    width: 40%;
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+}
+
+
 .achievmentsH1 {
     font-family: 'Azeret Mono', monospace;
     color:white;
-    font-weight: 400;
-    width: 20em;
+    font-weight: 500;
     display: inline;
+    margin-bottom:20px;
 }
 
 .achievmentsP {
     font-family: 'Azeret Mono', monospace;
     color:white;
     font-weight: 200;
-    width: 20em;
     display: inline;
-    font-size:20px;
 }
 
 .achievmentBoxMain {
     background-color:rgb(78, 78, 78);
     display: flex;
     justify-content: center;
+    align-items: center;
     flex-direction: row;
+    border-top:solid white 1px;
 }
 
 .achievmentBoxMainNest {
@@ -28,6 +36,7 @@
     display: flex;
     justify-content: space-between;
     flex-direction: row;
+    align-items: center;
 }
 
 .achievmentsImg {
