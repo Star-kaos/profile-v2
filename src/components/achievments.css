@@ -1,0 +1,30 @@
+.achievmentsH1 {
+    font-family: 'Azeret Mono', monospace;
+    color:white;
+    font-weight: 400;
+    width: 20em;
+    display: inline;
+}
+
+.achievmentBoxMain {
+    background-color:rgb(78, 78, 78);
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.achievmentBoxMainNest {
+    margin-top: 20px;
+    width: 65%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.achievmentsImg {
+    width: 28em;
+    height:20em;
+    background-image: url(./Assets/fccCertificate.PNG);
+    background-repeat: no-repeat;
+    background-size: cover;
+}

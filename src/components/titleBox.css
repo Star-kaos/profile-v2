@@ -31,6 +31,7 @@
   }
   
   .titleHeading {
+    margin-top: 49px;
     width:15em;
     font-family: 'Azeret Mono', monospace;
     text-align: left;
@@ -69,9 +70,10 @@
   /* me pic */
   .mePicNest {
     border:1px solid white;
-    width:18em;
-    height:25em;
+    width:20em;
+    height:28em;
     padding:10px;
+    margin-top: 49px;
   }
   
   

@@ -2,9 +2,10 @@ import './navbar.css';
 
 function navbar() {
     return (
+
         // navbarContainer useless
         <nav className="navbarContainer">
-
+            
             <div className='navbar'>
                 <ul className='navbarUl'>
                     <div className='logoLi'>
@@ -18,6 +19,7 @@ function navbar() {
                 </ul>
             </div>
         </nav>
+
     );
 }
 
