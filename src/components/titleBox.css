@@ -21,7 +21,6 @@
   }
   
   .titleBoxNest {
-    height: calc( - 4em);
     width:65%;
     display: flex;
     flex-direction: row;
@@ -31,7 +30,7 @@
   }
   
   .titleHeading {
-    margin-top: 49px;
+    margin-top: 2em;
     width:15em;
     font-family: 'Azeret Mono', monospace;
     text-align: left;
@@ -45,22 +44,25 @@
   }
   
   .contactBtn {
-    width:8em;
+    /* width:8em; */
     background-color: transparent;
     padding:1.5em;
     border-radius: 1em;
     border: 1px solid white;
     font-family: 'Azeret Mono', monospace;
     color:white;
-    margin-top:20px;
+    margin-top:2em;
   }
   
-  .contactBtnA {
-    color:white;
-    text-decoration: none;
+  .contactBtnANest {
     display: flex;
     flex-direction: row;
     align-items: left;
+  }
+
+  .contactBtnA {
+    color:white;
+    text-decoration: none;
   }
   
   .contactBtn:hover {
@@ -69,11 +71,11 @@
   
   /* me pic */
   .mePicNest {
+    margin-top: 2em;
     border:1px solid white;
     width:20em;
     height:28em;
-    padding:10px;
-    margin-top: 49px;
+    padding:0.5em;
   }
   
   
