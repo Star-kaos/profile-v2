@@ -9,7 +9,7 @@ function navbar() {
             <div className='navbar'>
                 <ul className='navbarUl'>
                     <div className='logoLi'>
-                        <li className='navbarLiLogo'><a className='aTags' href="#home">elijahperera.com</a></li>
+                        <li className='navbarLiLogo'>elijahperera.com</li>
                     </div>
                     <div className='contentsLi'>
                         <li className='navbarLi'><a className='aTags' href="#about">About</a></li>
