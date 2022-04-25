@@ -56,4 +56,11 @@
     .navbarLi {
         Display:none;
     }
+    .navbarUl {
+        color:white;
+        display: flex;
+        flex-direction: row;
+        justify-content:center;
+        width:65%;
+    }
 }
