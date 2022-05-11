@@ -3,6 +3,7 @@
     display: flex;
     justify-content: left;
     flex-direction: column;
+    margin-right: 2em;
 }
 
 
@@ -46,3 +47,19 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+@media screen and (max-width: 1000px) {
+        .achievmentBoxMainNest {
+            flex-direction: column;
+        }
+        .achievmentBoxHeadings {
+            width: 70%;
+            margin-bottom: 2em;
+        }
+    }
+  
+  @media screen and (max-width: 500px) {
+      .achievmentsImg {
+          display: none;
+      }
+  }

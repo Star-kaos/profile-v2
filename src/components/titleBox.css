@@ -90,9 +90,7 @@
 
 @media screen and (max-width: 1000px) {
   .mePicNest {
-    margin-top: 2em;
-    width:8em;
-    height: 10em;
+    display:none;
   } 
   .titleBoxNest {
     flex-direction: column;
